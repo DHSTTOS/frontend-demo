@@ -1,6 +1,6 @@
 # Frontend Prototype of DHSTTOS
 
-Design files are on the `design` branch.
+Preview current build of `master` branch [here](https://adin-frontend.netlify.com/). Design files are on the `design` branch.
 
 ## How to Fire This Up
 
