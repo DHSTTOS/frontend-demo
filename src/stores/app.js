@@ -2,8 +2,17 @@ import { observable, action } from "mobx";
 import { DEFAULT_SOURCE_NAME } from "@libs";
 
 class AppStore {
+  /**
+   * This is the list containing the configs for each individual diagrams
+   */
   @observable
   diagramConfigs = []; // format TBD
+
+  @observable
+  diagramConfigModal = {
+    isOpen: false,
+    diagramID: -1,
+  };
 
   @observable
   username = "";
