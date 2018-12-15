@@ -14,6 +14,7 @@ yAxis: enum JSON attributes
 enableLegends: boolean
 enableTooltip: boolean
 enableAnimation: boolean
+diagramType: enum Diagram types
 source: enum Source names
 ```
 
@@ -54,4 +55,4 @@ pointOpacity: 0 <= number <= 1
 
 Since it's not OO, we might just use a prettier version of the stuff below to substitute the class diagrams. (Just my opinion)
 
-![Structure Tree](./structure/App.png)
+![Structure Tree](./structure/Root.png)
